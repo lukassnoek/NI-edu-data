@@ -1,0 +1,74 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Setting number of cores to 1 ..."
+    n_cores=1
+else
+    n_cores=$1
+fi
+
+smooth=5
+paradigm_hp=100
+
+subs=$(ls -d ../sub-??)
+
+i=0
+for sdir in ${subs}; do
+    sub=$(basename ${sdir})
+    for ses in ses-1 ses-2; do
+	for task in flocBLOCKED flocER; do
+	    if [ "${task}" == "flocBLOCKED" ]; then
+		template=../derivatives/fsl/template_floc.fsf
+	    else
+		template=../derivatives/fsl/template_floc_with_tderiv.fsf
+	    fi
+
+	    outputdir=$(realpath ../derivatives/fsl/${sub}/${task}/${ses})
+	
+	    # Find func file
+	    fmri_base=$(realpath ../${sub}/${ses}/func/${sub}_${ses}_task-flocBLOCKED_acq-Mb4Mm27Tr700)
+	    feat_file=${fmri_base}_bold.nii.gz
+
+	    # Set tr and npts
+	    tr=$(fslval ${feat_file} pixdim4)
+            npts=$(fslval ${feat_file} dim4)
+
+	    nx=$(fslval ${feat_file} dim1)
+	    ny=$(fslval ${feat_file} dim2)
+	    nz=$(fslval ${feat_file} dim3)
+	    totalVoxels=$(($nx * $ny * $nz * $npts))
+
+	    highres_file=$(realpath ../${sub}/ses-1/anat/${sub}_ses-1_acq-AxialNsig2Mm1_T1w_brain.nii.gz)
+	    if [ ! -f ${highres_file} ]; then
+	        echo "Going to bet the T1 for ${sub}, because that's not done yet!"
+	        orig_t1=${highres_file/_brain.nii.gz/.nii.gz}
+                bet ${orig_t1} ${highres_file} -R
+            fi
+        
+            face_events=${fmri_base}_condition-face_events.txt
+	    body_events=${fmri_base}_condition-body_events.txt
+	    place_events=${fmri_base}_condition-place_events.txt
+	    character_events=${fmri_base}_condition-character_events.txt
+	    object_events=${fmri_base}_condition-object_events.txt
+	    response_events=${fmri_base}_condition-response_events.txt
+
+            export outputdir tr npts smooth feat_file highres_file totalVoxels paradigm_hp
+            export face_events body_events place_events character_events object_events response_events
+            fsf=../derivatives/fsl/fsf/${sub}_${ses}_task-${task}.fsf	    
+	    envsubst < ../derivatives/fsl/template_floc.fsf > ${fsf}
+	    
+	    echo "Running FEAT for ${sub}, ${ses}, with task ${task} ..."
+	    feat ${fsf} &
+	    
+	    i=$(($i + 1))
+	    if [ $((${i} % ${n_cores})) == 0 ]; then
+		wait  # wait before other processes are finished
+            fi
+
+	done
+    done
+done
+
+wait  # make sure to wait if not everything's finished yet

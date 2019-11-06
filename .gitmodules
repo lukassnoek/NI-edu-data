@@ -1,0 +1,6 @@
+[submodule "stimuli/fLoc"]
+	path = stimuli/fLoc
+	url = https://github.com/FEED-UvA/fLoc.git
+[submodule "code/exp/exptools2"]
+	path = code/exp/exptools2
+	url = https://github.com/VU-Cog-Sci/exptools2.git

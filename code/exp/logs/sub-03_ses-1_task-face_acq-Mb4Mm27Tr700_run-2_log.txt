@@ -1,0 +1,459 @@
+12.2972 	WARNING 	Actual framerate: 120.01286 (1 frame = 0.00833)
+12.3048 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='deg', vertices=ndarray(...), win=Window(...))
+12.5199 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+12.5891 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+12.6700 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+12.7832 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+12.8957 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+12.9873 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.0916 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.1881 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.3334 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.4579 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.5693 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.6474 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.7446 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+13.9001 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.0115 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.1256 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.2516 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.3630 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.4945 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.7058 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.8092 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.8781 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+14.9604 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.1100 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.1839 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.2563 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.3300 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.4780 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.5866 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.7246 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.8425 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+15.9458 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.0162 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.2093 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.3118 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.3785 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.5636 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.7136 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.7977 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.8828 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=str(...), interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([10., 10.]), texRes=128, units='deg', win=Window(...))
+16.8930 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([-600., -300.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+16.9886 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-600., -350.]), rgb=array([1., 1., 1.]), text='Heel onaantrekkelijk', units='pix', win=Window(...), wrapWidth=500)
+16.9996 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([-450., -200.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0025 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-450., -250.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0124 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([-300., -150.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0148 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-300., -200.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0247 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([-150., -100.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0272 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([-150., -150.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0371 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([ 150., -100.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0396 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 150., -150.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0494 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([ 300., -150.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0518 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 300., -200.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0616 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([ 450., -200.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0640 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 450., -250.]), rgb=array([1., 1., 1.]), text=' ', units='pix', win=Window(...), wrapWidth=500)
+17.0738 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor='lightblue', fillColorSpace='named', fillRGB=array([173., 216., 230.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([ 600., -300.]), size=array([1., 1.]), units='pix', vertices=ndarray(...), win=Window(...))
+17.0792 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=45, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([ 600., -350.]), rgb=array([1., 1., 1.]), text='Heel aantrekkelijk', units='pix', win=Window(...), wrapWidth=500)
+17.0958 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=67.5, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([  0., 100.]), rgb=array([1., 1., 1.]), text='Hoe aantrekkelijk?', units='pix', win=Window(...), wrapWidth=1200)
+17.1925 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=1, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='deg', win=Window(...), wrapWidth=500)
+37.6552 	DATA 	Keypress: t
+37.6554 	EXP 	window1: recordFrameIntervals = True
+38.3630 	DATA 	Keypress: t
+39.0630 	DATA 	Keypress: t
+39.7630 	DATA 	Keypress: t
+40.4630 	DATA 	Keypress: t
+41.1630 	DATA 	Keypress: t
+41.8629 	DATA 	Keypress: t
+42.5630 	DATA 	Keypress: t
+43.2629 	DATA 	Keypress: t
+43.6794 	WARNING 	t of last frame was 24.96ms (=1/40)
+43.7045 	WARNING 	t of last frame was 25.08ms (=1/39)
+43.9629 	DATA 	Keypress: t
+43.9794 	WARNING 	t of last frame was 16.67ms (=1/59)
+44.6629 	DATA 	Keypress: t
+44.6794 	WARNING 	t of last frame was 16.67ms (=1/60)
+44.9294 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+45.3628 	DATA 	Keypress: t
+46.0628 	DATA 	Keypress: t
+46.7628 	DATA 	Keypress: t
+47.4628 	DATA 	Keypress: t
+48.1628 	DATA 	Keypress: t
+48.8627 	DATA 	Keypress: t
+49.5627 	DATA 	Keypress: t
+50.2627 	DATA 	Keypress: t
+50.9627 	DATA 	Keypress: t
+51.6627 	DATA 	Keypress: t
+52.3626 	DATA 	Keypress: t
+53.0626 	DATA 	Keypress: t
+53.7626 	DATA 	Keypress: t
+54.4626 	DATA 	Keypress: t
+55.1626 	DATA 	Keypress: t
+55.8625 	DATA 	Keypress: t
+56.5625 	DATA 	Keypress: t
+57.2625 	DATA 	Keypress: t
+57.9625 	DATA 	Keypress: t
+58.6640 	DATA 	Keypress: t
+59.3625 	DATA 	Keypress: t
+60.0624 	DATA 	Keypress: t
+60.7624 	DATA 	Keypress: t
+61.4624 	DATA 	Keypress: t
+62.1624 	DATA 	Keypress: t
+62.8624 	DATA 	Keypress: t
+63.5623 	DATA 	Keypress: t
+64.2623 	DATA 	Keypress: t
+64.9623 	DATA 	Keypress: t
+65.6623 	DATA 	Keypress: t
+66.3623 	DATA 	Keypress: t
+67.0622 	DATA 	Keypress: t
+67.7622 	DATA 	Keypress: t
+68.4622 	DATA 	Keypress: t
+69.1622 	DATA 	Keypress: t
+69.8622 	DATA 	Keypress: t
+70.5621 	DATA 	Keypress: t
+71.2621 	DATA 	Keypress: t
+71.9621 	DATA 	Keypress: t
+72.6621 	DATA 	Keypress: t
+73.3621 	DATA 	Keypress: t
+74.0621 	DATA 	Keypress: t
+74.7620 	DATA 	Keypress: t
+75.4620 	DATA 	Keypress: t
+76.1620 	DATA 	Keypress: t
+76.8620 	DATA 	Keypress: t
+77.5620 	DATA 	Keypress: t
+78.2619 	DATA 	Keypress: t
+78.9619 	DATA 	Keypress: t
+79.6619 	DATA 	Keypress: t
+80.3619 	DATA 	Keypress: t
+81.0619 	DATA 	Keypress: t
+81.7618 	DATA 	Keypress: t
+82.4618 	DATA 	Keypress: t
+83.1618 	DATA 	Keypress: t
+83.8618 	DATA 	Keypress: t
+84.5618 	DATA 	Keypress: t
+85.2617 	DATA 	Keypress: t
+85.9617 	DATA 	Keypress: t
+86.6617 	DATA 	Keypress: t
+87.3617 	DATA 	Keypress: t
+88.0617 	DATA 	Keypress: t
+88.7617 	DATA 	Keypress: t
+89.4616 	DATA 	Keypress: t
+90.1616 	DATA 	Keypress: t
+90.8616 	DATA 	Keypress: t
+91.5616 	DATA 	Keypress: t
+92.2563 	DATA 	Keypress: t
+92.9563 	DATA 	Keypress: t
+92.9980 	DATA 	Keypress: b
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'orange (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.0197 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+93.6615 	DATA 	Keypress: t
+94.3615 	DATA 	Keypress: t
+95.0615 	DATA 	Keypress: t
+95.7615 	DATA 	Keypress: t
+96.4614 	DATA 	Keypress: t
+97.1614 	DATA 	Keypress: t
+97.6779 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+97.8614 	DATA 	Keypress: t
+98.5614 	DATA 	Keypress: t
+99.2614 	DATA 	Keypress: t
+99.9613 	DATA 	Keypress: t
+100.6613 	DATA 	Keypress: t
+101.3613 	DATA 	Keypress: t
+102.0613 	DATA 	Keypress: t
+102.7613 	DATA 	Keypress: t
+103.4612 	DATA 	Keypress: t
+104.1612 	DATA 	Keypress: t
+104.8612 	DATA 	Keypress: t
+105.5612 	DATA 	Keypress: t
+106.2612 	DATA 	Keypress: t
+106.9612 	DATA 	Keypress: t
+107.6641 	DATA 	Keypress: t
+108.3611 	DATA 	Keypress: t
+109.0611 	DATA 	Keypress: t
+109.7611 	DATA 	Keypress: t
+110.4611 	DATA 	Keypress: t
+111.1610 	DATA 	Keypress: t
+111.8610 	DATA 	Keypress: t
+112.5610 	DATA 	Keypress: t
+113.2610 	DATA 	Keypress: t
+113.9610 	DATA 	Keypress: t
+114.6609 	DATA 	Keypress: t
+115.3609 	DATA 	Keypress: t
+116.0609 	DATA 	Keypress: t
+116.7609 	DATA 	Keypress: t
+117.4609 	DATA 	Keypress: t
+118.1609 	DATA 	Keypress: t
+118.8608 	DATA 	Keypress: t
+119.5608 	DATA 	Keypress: t
+120.2608 	DATA 	Keypress: t
+120.9608 	DATA 	Keypress: t
+121.6607 	DATA 	Keypress: t
+122.3607 	DATA 	Keypress: t
+123.0607 	DATA 	Keypress: t
+123.7607 	DATA 	Keypress: t
+124.4607 	DATA 	Keypress: t
+125.1607 	DATA 	Keypress: t
+125.8606 	DATA 	Keypress: t
+126.5606 	DATA 	Keypress: t
+127.2606 	DATA 	Keypress: t
+127.9606 	DATA 	Keypress: t
+128.6606 	DATA 	Keypress: t
+129.3605 	DATA 	Keypress: t
+130.0605 	DATA 	Keypress: t
+130.7605 	DATA 	Keypress: t
+131.4605 	DATA 	Keypress: t
+132.1605 	DATA 	Keypress: t
+132.8605 	DATA 	Keypress: t
+133.5604 	DATA 	Keypress: t
+134.2604 	DATA 	Keypress: t
+134.9604 	DATA 	Keypress: t
+135.6604 	DATA 	Keypress: t
+136.3603 	DATA 	Keypress: t
+137.0603 	DATA 	Keypress: t
+137.7603 	DATA 	Keypress: t
+138.4603 	DATA 	Keypress: t
+139.1603 	DATA 	Keypress: t
+139.8603 	DATA 	Keypress: t
+140.5602 	DATA 	Keypress: t
+141.2602 	DATA 	Keypress: t
+141.9602 	DATA 	Keypress: t
+142.6630 	DATA 	Keypress: t
+143.3602 	DATA 	Keypress: t
+144.0601 	DATA 	Keypress: t
+144.7601 	DATA 	Keypress: t
+145.4601 	DATA 	Keypress: t
+146.1601 	DATA 	Keypress: t
+146.8601 	DATA 	Keypress: t
+147.5600 	DATA 	Keypress: t
+148.2600 	DATA 	Keypress: t
+148.9600 	DATA 	Keypress: t
+149.6600 	DATA 	Keypress: t
+150.3600 	DATA 	Keypress: t
+151.0599 	DATA 	Keypress: t
+151.7599 	DATA 	Keypress: t
+152.4599 	DATA 	Keypress: t
+153.1599 	DATA 	Keypress: t
+153.8599 	DATA 	Keypress: t
+154.5599 	DATA 	Keypress: t
+155.2598 	DATA 	Keypress: t
+155.9598 	DATA 	Keypress: t
+156.6598 	DATA 	Keypress: t
+157.3598 	DATA 	Keypress: t
+158.0598 	DATA 	Keypress: t
+158.7597 	DATA 	Keypress: t
+159.4597 	DATA 	Keypress: t
+160.1597 	DATA 	Keypress: t
+160.8597 	DATA 	Keypress: t
+161.5597 	DATA 	Keypress: t
+162.2596 	DATA 	Keypress: t
+162.9596 	DATA 	Keypress: t
+163.6596 	DATA 	Keypress: t
+164.3596 	DATA 	Keypress: t
+165.0596 	DATA 	Keypress: t
+165.7595 	DATA 	Keypress: t
+166.4595 	DATA 	Keypress: t
+167.1595 	DATA 	Keypress: t
+167.8595 	DATA 	Keypress: t
+168.5595 	DATA 	Keypress: t
+169.2594 	DATA 	Keypress: t
+169.9594 	DATA 	Keypress: t
+170.6594 	DATA 	Keypress: t
+171.3594 	DATA 	Keypress: t
+172.0594 	DATA 	Keypress: t
+172.7594 	DATA 	Keypress: t
+173.4593 	DATA 	Keypress: t
+174.1593 	DATA 	Keypress: t
+174.8593 	DATA 	Keypress: t
+175.5593 	DATA 	Keypress: t
+176.2593 	DATA 	Keypress: t
+176.9592 	DATA 	Keypress: t
+177.6592 	DATA 	Keypress: t
+178.3592 	DATA 	Keypress: t
+179.0592 	DATA 	Keypress: t
+179.7592 	DATA 	Keypress: t
+180.4591 	DATA 	Keypress: t
+181.1591 	DATA 	Keypress: t
+181.8591 	DATA 	Keypress: t
+182.5591 	DATA 	Keypress: t
+183.2591 	DATA 	Keypress: t
+183.9591 	DATA 	Keypress: t
+184.6590 	DATA 	Keypress: t
+185.3590 	DATA 	Keypress: t
+186.0590 	DATA 	Keypress: t
+186.7590 	DATA 	Keypress: t
+187.4537 	DATA 	Keypress: t
+188.0923 	DATA 	Keypress: y
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'orange (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1088 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+188.1537 	DATA 	Keypress: t
+188.8589 	DATA 	Keypress: t
+189.5589 	DATA 	Keypress: t
+190.2589 	DATA 	Keypress: t
+190.9589 	DATA 	Keypress: t
+191.6588 	DATA 	Keypress: t
+192.3588 	DATA 	Keypress: t
+192.9253 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+193.0588 	DATA 	Keypress: t
+193.7588 	DATA 	Keypress: t
+194.4588 	DATA 	Keypress: t
+195.1587 	DATA 	Keypress: t
+195.8587 	DATA 	Keypress: t
+196.5587 	DATA 	Keypress: t
+197.2587 	DATA 	Keypress: t
+197.9587 	DATA 	Keypress: t
+198.6586 	DATA 	Keypress: t
+199.3586 	DATA 	Keypress: t
+200.0586 	DATA 	Keypress: t
+200.7586 	DATA 	Keypress: t
+201.4586 	DATA 	Keypress: t
+202.1585 	DATA 	Keypress: t
+202.8585 	DATA 	Keypress: t
+203.5585 	DATA 	Keypress: t
+204.2585 	DATA 	Keypress: t
+204.9585 	DATA 	Keypress: t
+205.6585 	DATA 	Keypress: t
+206.3584 	DATA 	Keypress: t
+207.0584 	DATA 	Keypress: t
+207.7584 	DATA 	Keypress: t
+208.4584 	DATA 	Keypress: t
+209.1657 	DATA 	Keypress: t
+209.8583 	DATA 	Keypress: t
+210.5583 	DATA 	Keypress: t
+211.2583 	DATA 	Keypress: t
+211.9583 	DATA 	Keypress: t
+212.6583 	DATA 	Keypress: t
+213.3583 	DATA 	Keypress: t
+214.0582 	DATA 	Keypress: t
+214.7582 	DATA 	Keypress: t
+215.4582 	DATA 	Keypress: t
+216.1582 	DATA 	Keypress: t
+216.8581 	DATA 	Keypress: t
+217.5581 	DATA 	Keypress: t
+218.2581 	DATA 	Keypress: t
+218.9581 	DATA 	Keypress: t
+219.6581 	DATA 	Keypress: t
+220.3580 	DATA 	Keypress: t
+221.0580 	DATA 	Keypress: t
+221.7528 	DATA 	Keypress: t
+221.9163 	DATA 	Keypress: e
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'orange (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+221.9329 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+222.4580 	DATA 	Keypress: t
+223.1654 	DATA 	Keypress: t
+223.8580 	DATA 	Keypress: t
+224.5579 	DATA 	Keypress: t
+225.2579 	DATA 	Keypress: t
+225.9579 	DATA 	Keypress: t
+226.6579 	DATA 	Keypress: t
+226.9244 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+227.3579 	DATA 	Keypress: t
+228.0579 	DATA 	Keypress: t
+228.7578 	DATA 	Keypress: t
+229.4578 	DATA 	Keypress: t
+230.1578 	DATA 	Keypress: t
+230.8578 	DATA 	Keypress: t
+231.5577 	DATA 	Keypress: t
+232.2577 	DATA 	Keypress: t
+232.9577 	DATA 	Keypress: t
+233.6577 	DATA 	Keypress: t
+234.3577 	DATA 	Keypress: t
+235.0577 	DATA 	Keypress: t
+235.7576 	DATA 	Keypress: t
+236.4576 	DATA 	Keypress: t
+237.1576 	DATA 	Keypress: t
+237.8576 	DATA 	Keypress: t
+238.5576 	DATA 	Keypress: t
+239.2575 	DATA 	Keypress: t
+239.9575 	DATA 	Keypress: t
+240.6575 	DATA 	Keypress: t
+241.3575 	DATA 	Keypress: t
+242.0575 	DATA 	Keypress: t
+242.7575 	DATA 	Keypress: t
+243.4574 	DATA 	Keypress: t
+244.1574 	DATA 	Keypress: t
+244.8574 	DATA 	Keypress: t
+245.5521 	DATA 	Keypress: t
+245.6990 	DATA 	Keypress: b
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'orange (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+245.7156 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+246.2573 	DATA 	Keypress: t
+246.9573 	DATA 	Keypress: t
+247.6573 	DATA 	Keypress: t
+248.3573 	DATA 	Keypress: t
+249.0573 	DATA 	Keypress: t
+249.7573 	DATA 	Keypress: t
+250.4572 	DATA 	Keypress: t
+250.9237 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+251.1572 	DATA 	Keypress: t
+251.8572 	DATA 	Keypress: t
+252.5572 	DATA 	Keypress: t
+253.2572 	DATA 	Keypress: t
+253.9571 	DATA 	Keypress: t
+254.6519 	DATA 	Keypress: t
+254.9185 	DATA 	Keypress: b
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'orange (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+254.9403 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+255.3571 	DATA 	Keypress: t
+256.0571 	DATA 	Keypress: t
+256.7571 	DATA 	Keypress: t
+257.4570 	DATA 	Keypress: t
+258.1570 	DATA 	Keypress: t
+258.8570 	DATA 	Keypress: t
+259.5570 	DATA 	Keypress: t
+259.9235 	EXP 	unnamed Circle: fillColor = 'lightblue (named)'
+260.2570 	DATA 	Keypress: t
+260.9569 	DATA 	Keypress: t
+261.6569 	DATA 	Keypress: t
+262.3569 	DATA 	Keypress: t
+263.0569 	DATA 	Keypress: t
+263.7569 	DATA 	Keypress: t
+264.4568 	DATA 	Keypress: t
+265.1568 	DATA 	Keypress: t
+265.8568 	DATA 	Keypress: t
+266.5568 	DATA 	Keypress: t
+267.2568 	DATA 	Keypress: t
+267.9568 	DATA 	Keypress: t
+268.6567 	DATA 	Keypress: t
+269.3567 	DATA 	Keypress: t
+270.0567 	DATA 	Keypress: t
+270.7567 	DATA 	Keypress: t
+271.4567 	DATA 	Keypress: t
+272.1567 	DATA 	Keypress: t
+272.8566 	DATA 	Keypress: t
+273.5566 	DATA 	Keypress: t
+274.2566 	DATA 	Keypress: t
+274.9566 	DATA 	Keypress: t
+275.6566 	DATA 	Keypress: t
+275.9064 	EXP 	window1: recordFrameIntervals = False
+276.2369 	EXP 	window1: mouseVisible = True

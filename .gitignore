@@ -102,3 +102,9 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# custom
+sub-??
+derivatives
+bids_validator_log.txt
+stimuli/london_face_dataset
