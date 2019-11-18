@@ -360,7 +360,7 @@ class RatingSession(Session):
                 self.trials.append(cue_trial)
                 for face in np.random.permutation(faces):
                     face = str(face).zfill(3)
-                    stim = op.join('..', '..', 'data', 'london_face_dataset', 'neutral_front', f'{face}_03.jpg')
+                    stim = op.join('..', '..', 'stimuli', 'london_face_dataset', 'neutral_front', f'{face}_03.jpg')
                     self.display_text(f'Loading {trial_nr} / 240 ...', duration=0.001)
                     trial = RatingTrial(
                         session=self,
