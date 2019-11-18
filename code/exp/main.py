@@ -7,8 +7,8 @@ from psychopy.gui import DlgFromDict
 from session import FLocSession, FaceSession
 
 inp = {
-    'sub_id': '07',  # '01', '02', etc  (zero-padded!)
-    'session': '2',  # '1' or '2'
+    'sub_id': '14',  # '01', '02', etc  (zero-padded!)
+    'session': '1',  # '1' or '2'
     'task': '',  # 'floc' or 'face'
     'design': '',  # 'BLOCKED' or 'ER'
     'run': '',  # for floc, choose '1', '2', '3', '4', '5', or '6'
@@ -55,7 +55,7 @@ if task == 'floc':
         output_str=f'sub-{sub}_ses-{ses}_task-floc{design}_acq-Mb4Mm27Tr700',
         stim_file=stim_file,
         settings_file='settings.yml',
-        stim_dir=op.join('..', 'data', 'fLoc'),
+        stim_dir=op.join('..', '..', 'stimuli', 'fLoc'),
         dummies=0,
         scrambled=False
     )
@@ -69,7 +69,7 @@ elif task == 'face':
         sub=sub,
         run=run,
         output_str=f'sub-{sub}_ses-{ses}_task-face_acq-Mb4Mm27Tr700_run-{run}',
-        stim_file=op.join(op.dirname(__file__), 'faces_SINGLETRIAL.tsv'),
+        stim_file='faces_SINGLETRIAL.tsv',
         settings_file='settings.yml'
     )
     

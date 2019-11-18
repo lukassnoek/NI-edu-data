@@ -1,0 +1,476 @@
+10.1555 	WARNING 	Actual framerate: 119.99076 (1 frame = 0.00833)
+10.1629 	EXP 	Created unnamed Circle = Circle(__class__=<class 'psychopy.visual.circle.Circle'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace=None, contrast=1.0, depth=0, fillColor=array([1., 1., 1.]), fillColorSpace='rgb', fillRGB=array([1., 1., 1.]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1., 1., 1.]), lineWidth=1.5, name='unnamed Circle', opacity=1.0, ori=array(0.), pos=array([0., 0.]), size=array([1., 1.]), units='deg', vertices=ndarray(...), win=Window(...))
+10.1646 	EXP 	Created unnamed ImageStim = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, image=None, interpolate=False, mask=None, maskParams=None, name='unnamed ImageStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), size=array([0.5, 0.5]), texRes=128, units='deg', win=Window(...))
+10.2795 	EXP 	Created unnamed TextStim = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz='center', alignVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0, flipHoriz=False, flipVert=False, font='', fontFiles=[], height=0.5, italic=False, languageStyle='LTR', name='unnamed TextStim', opacity=1.0, ori=0.0, pos=array([0., 0.]), rgb=array([1., 1., 1.]), text=str(...), units='deg', win=Window(...), wrapWidth=500)
+43.4530 	DATA 	Keypress: t
+43.4532 	EXP 	window1: recordFrameIntervals = True
+43.5212 	WARNING 	t of last frame was 14.98ms (=1/66)
+44.1546 	DATA 	Keypress: t
+44.8546 	DATA 	Keypress: t
+45.5546 	DATA 	Keypress: t
+46.2546 	DATA 	Keypress: t
+46.9545 	DATA 	Keypress: t
+47.6545 	DATA 	Keypress: t
+48.3545 	DATA 	Keypress: t
+49.0545 	DATA 	Keypress: t
+49.4127 	WARNING 	t of last frame was 58.36ms (=1/17)
+49.4127 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+49.4127 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-101.jpg'
+49.4793 	WARNING 	t of last frame was 33.32ms (=1/30)
+49.7544 	DATA 	Keypress: t
+49.9043 	WARNING 	t of last frame was 50.01ms (=1/19)
+49.9043 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+49.9043 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-76.jpg'
+50.4544 	DATA 	Keypress: t
+51.1544 	DATA 	Keypress: t
+51.8627 	DATA 	Keypress: t
+51.8752 	WARNING 	Multiple dropped frames have occurred - I'll stop bothering you about them!
+52.3042 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+52.3042 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-141.jpg'
+52.5544 	DATA 	Keypress: t
+53.2544 	DATA 	Keypress: t
+53.9544 	DATA 	Keypress: t
+54.7347 	DATA 	Keypress: t
+54.7375 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+54.7375 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-82.jpg'
+55.3543 	DATA 	Keypress: t
+56.0544 	DATA 	Keypress: t
+56.7543 	DATA 	Keypress: t
+57.1291 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+57.1291 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-13.jpg'
+57.4543 	DATA 	Keypress: t
+58.1542 	DATA 	Keypress: t
+58.8542 	DATA 	Keypress: t
+59.5124 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+59.5124 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-128.jpg'
+59.5542 	DATA 	Keypress: t
+60.2542 	DATA 	Keypress: t
+60.9542 	DATA 	Keypress: t
+61.6542 	DATA 	Keypress: t
+61.9040 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+61.9040 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-80.jpg'
+62.3541 	DATA 	Keypress: t
+63.0542 	DATA 	Keypress: t
+63.7542 	DATA 	Keypress: t
+64.3040 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+64.3040 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-16.jpg'
+64.4541 	DATA 	Keypress: t
+65.1541 	DATA 	Keypress: t
+65.8541 	DATA 	Keypress: t
+66.5540 	DATA 	Keypress: t
+67.2623 	DATA 	Keypress: t
+67.7122 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+67.7122 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-2.jpg'
+67.9540 	DATA 	Keypress: t
+68.6540 	DATA 	Keypress: t
+69.3540 	DATA 	Keypress: t
+70.0540 	DATA 	Keypress: t
+70.7540 	DATA 	Keypress: t
+71.4540 	DATA 	Keypress: t
+72.1038 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+72.1038 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-88.jpg'
+72.1539 	DATA 	Keypress: t
+72.8539 	DATA 	Keypress: t
+73.5539 	DATA 	Keypress: t
+74.2539 	DATA 	Keypress: t
+74.9538 	DATA 	Keypress: t
+75.6538 	DATA 	Keypress: t
+76.3538 	DATA 	Keypress: t
+77.0620 	DATA 	Keypress: t
+77.4870 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+77.4870 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-88.jpg'
+77.7539 	DATA 	Keypress: t
+78.4538 	DATA 	Keypress: t
+79.1538 	DATA 	Keypress: t
+79.9021 	DATA 	Keypress: t
+79.9036 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+79.9036 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-115.jpg'
+80.3287 	DATA 	Keypress: b
+80.5537 	DATA 	Keypress: t
+81.2537 	DATA 	Keypress: t
+81.9537 	DATA 	Keypress: t
+82.6537 	DATA 	Keypress: t
+83.3119 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+83.3119 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-134.jpg'
+83.3537 	DATA 	Keypress: t
+84.0536 	DATA 	Keypress: t
+84.7536 	DATA 	Keypress: t
+85.4536 	DATA 	Keypress: t
+86.1537 	DATA 	Keypress: t
+86.8536 	DATA 	Keypress: t
+87.5535 	DATA 	Keypress: t
+87.7034 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+87.7034 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-128.jpg'
+88.2535 	DATA 	Keypress: t
+88.9535 	DATA 	Keypress: t
+89.6617 	DATA 	Keypress: t
+90.1284 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+90.1284 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-114.jpg'
+90.3535 	DATA 	Keypress: t
+91.0535 	DATA 	Keypress: t
+91.7535 	DATA 	Keypress: t
+92.4534 	DATA 	Keypress: t
+93.1534 	DATA 	Keypress: t
+93.8535 	DATA 	Keypress: t
+94.4949 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+94.4949 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-129.jpg'
+94.5534 	DATA 	Keypress: t
+95.2534 	DATA 	Keypress: t
+95.9533 	DATA 	Keypress: t
+96.6533 	DATA 	Keypress: t
+96.9282 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+96.9282 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-71.jpg'
+97.3533 	DATA 	Keypress: t
+98.0533 	DATA 	Keypress: t
+98.7533 	DATA 	Keypress: t
+99.3281 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+99.3281 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-7.jpg'
+99.4533 	DATA 	Keypress: t
+100.1533 	DATA 	Keypress: t
+100.8533 	DATA 	Keypress: t
+101.5533 	DATA 	Keypress: t
+102.2533 	DATA 	Keypress: t
+102.9533 	DATA 	Keypress: t
+103.6849 	DATA 	Keypress: t
+103.6863 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+103.6863 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-7.jpg'
+104.3532 	DATA 	Keypress: t
+105.0531 	DATA 	Keypress: t
+105.7531 	DATA 	Keypress: t
+106.4531 	DATA 	Keypress: t
+107.1196 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+107.1196 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-122.jpg'
+107.1531 	DATA 	Keypress: t
+107.3114 	DATA 	Keypress: b
+107.8530 	DATA 	Keypress: t
+108.5531 	DATA 	Keypress: t
+109.2530 	DATA 	Keypress: t
+109.9531 	DATA 	Keypress: t
+110.6531 	DATA 	Keypress: t
+111.3531 	DATA 	Keypress: t
+112.0530 	DATA 	Keypress: t
+112.7530 	DATA 	Keypress: t
+113.4530 	DATA 	Keypress: t
+114.1530 	DATA 	Keypress: t
+114.8530 	DATA 	Keypress: t
+115.5112 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+115.5112 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-85.jpg'
+115.5530 	DATA 	Keypress: t
+116.2529 	DATA 	Keypress: t
+116.9529 	DATA 	Keypress: t
+117.6529 	DATA 	Keypress: t
+118.3529 	DATA 	Keypress: t
+118.9277 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+118.9277 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-67.jpg'
+119.0528 	DATA 	Keypress: t
+119.7528 	DATA 	Keypress: t
+120.4528 	DATA 	Keypress: t
+121.1528 	DATA 	Keypress: t
+121.8527 	DATA 	Keypress: t
+122.5527 	DATA 	Keypress: t
+123.2527 	DATA 	Keypress: t
+123.9527 	DATA 	Keypress: t
+124.3026 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+124.3026 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-34.jpg'
+124.6527 	DATA 	Keypress: t
+125.3527 	DATA 	Keypress: t
+126.0527 	DATA 	Keypress: t
+126.7527 	DATA 	Keypress: t
+127.4527 	DATA 	Keypress: t
+128.1527 	DATA 	Keypress: t
+128.6858 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+128.6858 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-34.jpg'
+128.8526 	DATA 	Keypress: t
+129.5526 	DATA 	Keypress: t
+130.2525 	DATA 	Keypress: t
+130.9525 	DATA 	Keypress: t
+131.1107 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+131.1107 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-42.jpg'
+131.4692 	DATA 	Keypress: b
+131.6525 	DATA 	Keypress: t
+132.3525 	DATA 	Keypress: t
+133.0611 	DATA 	Keypress: t
+133.5023 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+133.5023 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-41.jpg'
+133.7525 	DATA 	Keypress: t
+134.4525 	DATA 	Keypress: t
+135.1525 	DATA 	Keypress: t
+135.8524 	DATA 	Keypress: t
+135.9106 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+135.9106 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-119.jpg'
+136.5524 	DATA 	Keypress: t
+137.2524 	DATA 	Keypress: t
+137.9524 	DATA 	Keypress: t
+138.3272 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+138.3272 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-94.jpg'
+138.6523 	DATA 	Keypress: t
+139.3523 	DATA 	Keypress: t
+140.0523 	DATA 	Keypress: t
+140.7105 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+140.7105 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-124.jpg'
+140.7523 	DATA 	Keypress: t
+141.4523 	DATA 	Keypress: t
+142.1523 	DATA 	Keypress: t
+142.8523 	DATA 	Keypress: t
+143.5523 	DATA 	Keypress: t
+144.2523 	DATA 	Keypress: t
+144.9522 	DATA 	Keypress: t
+145.1104 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+145.1104 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-65.jpg'
+145.6522 	DATA 	Keypress: t
+146.3522 	DATA 	Keypress: t
+147.0521 	DATA 	Keypress: t
+147.7521 	DATA 	Keypress: t
+148.4521 	DATA 	Keypress: t
+148.5353 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+148.5353 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-58.jpg'
+149.1521 	DATA 	Keypress: t
+149.8521 	DATA 	Keypress: t
+150.5521 	DATA 	Keypress: t
+150.9103 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+150.9103 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-85.jpg'
+151.2521 	DATA 	Keypress: t
+151.9521 	DATA 	Keypress: t
+152.6521 	DATA 	Keypress: t
+153.3521 	DATA 	Keypress: t
+154.0520 	DATA 	Keypress: t
+154.3268 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+154.3268 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-141.jpg'
+154.7520 	DATA 	Keypress: t
+155.4520 	DATA 	Keypress: t
+156.1519 	DATA 	Keypress: t
+156.8519 	DATA 	Keypress: t
+157.5519 	DATA 	Keypress: t
+158.2519 	DATA 	Keypress: t
+158.9519 	DATA 	Keypress: t
+159.6519 	DATA 	Keypress: t
+159.7184 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+159.7184 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-66.jpg'
+160.3519 	DATA 	Keypress: t
+161.0519 	DATA 	Keypress: t
+161.7519 	DATA 	Keypress: t
+162.4519 	DATA 	Keypress: t
+163.1100 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+163.1100 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-12.jpg'
+163.1518 	DATA 	Keypress: t
+163.8518 	DATA 	Keypress: t
+164.5517 	DATA 	Keypress: t
+165.2517 	DATA 	Keypress: t
+165.9517 	DATA 	Keypress: t
+166.5099 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+166.5099 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-67.jpg'
+166.6517 	DATA 	Keypress: t
+167.3517 	DATA 	Keypress: t
+168.0517 	DATA 	Keypress: t
+168.7517 	DATA 	Keypress: t
+169.4517 	DATA 	Keypress: t
+170.1517 	DATA 	Keypress: t
+170.8517 	DATA 	Keypress: t
+171.5517 	DATA 	Keypress: t
+172.2516 	DATA 	Keypress: t
+172.9014 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+172.9014 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-68.jpg'
+172.9515 	DATA 	Keypress: t
+173.6515 	DATA 	Keypress: t
+174.3515 	DATA 	Keypress: t
+175.0515 	DATA 	Keypress: t
+175.3180 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+175.3180 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-19.jpg'
+175.7515 	DATA 	Keypress: t
+176.4515 	DATA 	Keypress: t
+177.1514 	DATA 	Keypress: t
+177.7096 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+177.7096 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-24.jpg'
+177.8514 	DATA 	Keypress: t
+178.5515 	DATA 	Keypress: t
+179.2515 	DATA 	Keypress: t
+179.9514 	DATA 	Keypress: t
+180.6514 	DATA 	Keypress: t
+181.1263 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+181.1263 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-21.jpg'
+181.3514 	DATA 	Keypress: t
+182.0514 	DATA 	Keypress: t
+182.7514 	DATA 	Keypress: t
+183.4513 	DATA 	Keypress: t
+183.5095 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+183.5095 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-56.jpg'
+184.1513 	DATA 	Keypress: t
+184.8513 	DATA 	Keypress: t
+185.5513 	DATA 	Keypress: t
+186.2512 	DATA 	Keypress: t
+186.9094 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+186.9094 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-132.jpg'
+186.9512 	DATA 	Keypress: t
+187.6512 	DATA 	Keypress: t
+188.3512 	DATA 	Keypress: t
+189.0512 	DATA 	Keypress: t
+189.7512 	DATA 	Keypress: t
+190.4512 	DATA 	Keypress: t
+191.1511 	DATA 	Keypress: t
+191.3093 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+191.3093 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-82.jpg'
+191.8511 	DATA 	Keypress: t
+192.5511 	DATA 	Keypress: t
+193.2511 	DATA 	Keypress: t
+193.7093 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+193.7093 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-78.jpg'
+193.9510 	DATA 	Keypress: t
+194.6510 	DATA 	Keypress: t
+195.3510 	DATA 	Keypress: t
+196.0510 	DATA 	Keypress: t
+196.7510 	DATA 	Keypress: t
+197.4510 	DATA 	Keypress: t
+198.1175 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+198.1175 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-37.jpg'
+198.1515 	DATA 	Keypress: t
+198.8509 	DATA 	Keypress: t
+199.5509 	DATA 	Keypress: t
+200.2509 	DATA 	Keypress: t
+200.9509 	DATA 	Keypress: t
+201.6509 	DATA 	Keypress: t
+202.3509 	DATA 	Keypress: t
+203.0508 	DATA 	Keypress: t
+203.7509 	DATA 	Keypress: t
+204.4509 	DATA 	Keypress: t
+205.1508 	DATA 	Keypress: t
+205.5090 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+205.5090 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-43.jpg'
+205.8508 	DATA 	Keypress: t
+206.5508 	DATA 	Keypress: t
+207.2507 	DATA 	Keypress: t
+207.9507 	DATA 	Keypress: t
+208.6507 	DATA 	Keypress: t
+208.9089 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+208.9089 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-59.jpg'
+209.3507 	DATA 	Keypress: t
+210.0507 	DATA 	Keypress: t
+210.7507 	DATA 	Keypress: t
+211.3172 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+211.3172 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-44.jpg'
+211.4507 	DATA 	Keypress: t
+212.1507 	DATA 	Keypress: t
+212.8507 	DATA 	Keypress: t
+213.5507 	DATA 	Keypress: t
+214.2507 	DATA 	Keypress: t
+214.7088 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+214.7088 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-98.jpg'
+214.9506 	DATA 	Keypress: t
+215.6506 	DATA 	Keypress: t
+216.3506 	DATA 	Keypress: t
+217.0505 	DATA 	Keypress: t
+217.1087 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+217.1087 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-88.jpg'
+217.7505 	DATA 	Keypress: t
+218.4505 	DATA 	Keypress: t
+219.1505 	DATA 	Keypress: t
+219.8504 	DATA 	Keypress: t
+220.5504 	DATA 	Keypress: t
+221.2504 	DATA 	Keypress: t
+221.9504 	DATA 	Keypress: t
+222.5085 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+222.5085 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-119.jpg'
+222.6504 	DATA 	Keypress: t
+223.3504 	DATA 	Keypress: t
+224.0504 	DATA 	Keypress: t
+224.7503 	DATA 	Keypress: t
+224.9085 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+224.9085 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-47.jpg'
+225.4503 	DATA 	Keypress: t
+226.1503 	DATA 	Keypress: t
+226.8503 	DATA 	Keypress: t
+227.3085 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+227.3085 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-44.jpg'
+227.5503 	DATA 	Keypress: t
+228.2502 	DATA 	Keypress: t
+228.9502 	DATA 	Keypress: t
+229.6502 	DATA 	Keypress: t
+230.3502 	DATA 	Keypress: t
+230.7168 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+230.7168 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-2.jpg'
+231.0502 	DATA 	Keypress: t
+231.7502 	DATA 	Keypress: t
+232.4502 	DATA 	Keypress: t
+233.1502 	DATA 	Keypress: t
+233.8501 	DATA 	Keypress: t
+234.1250 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+234.1250 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\house\\house-24.jpg'
+234.5501 	DATA 	Keypress: t
+235.2501 	DATA 	Keypress: t
+235.9501 	DATA 	Keypress: t
+236.5166 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+236.5166 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-38.jpg'
+236.6500 	DATA 	Keypress: t
+237.3500 	DATA 	Keypress: t
+238.0500 	DATA 	Keypress: t
+238.7500 	DATA 	Keypress: t
+238.9165 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+238.9165 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-45.jpg'
+239.4500 	DATA 	Keypress: t
+240.1500 	DATA 	Keypress: t
+240.8500 	DATA 	Keypress: t
+241.5500 	DATA 	Keypress: t
+242.2499 	DATA 	Keypress: t
+242.3331 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+242.3331 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-62.jpg'
+242.9499 	DATA 	Keypress: t
+243.6499 	DATA 	Keypress: t
+244.3499 	DATA 	Keypress: t
+244.7331 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+244.7331 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-107.jpg'
+245.0499 	DATA 	Keypress: t
+245.7498 	DATA 	Keypress: t
+246.4498 	DATA 	Keypress: t
+247.1247 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+247.1247 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\adult\\adult-118.jpg'
+247.1498 	DATA 	Keypress: t
+247.8498 	DATA 	Keypress: t
+248.5498 	DATA 	Keypress: t
+249.2498 	DATA 	Keypress: t
+249.5246 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+249.5246 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-8.jpg'
+249.9497 	DATA 	Keypress: t
+250.6497 	DATA 	Keypress: t
+251.3497 	DATA 	Keypress: t
+252.0497 	DATA 	Keypress: t
+252.7497 	DATA 	Keypress: t
+252.9079 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+252.9079 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-130.jpg'
+253.4497 	DATA 	Keypress: t
+254.1496 	DATA 	Keypress: t
+254.8496 	DATA 	Keypress: t
+255.3079 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+255.3079 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\number\\number-129.jpg'
+255.5497 	DATA 	Keypress: t
+256.2497 	DATA 	Keypress: t
+256.9496 	DATA 	Keypress: t
+257.6496 	DATA 	Keypress: t
+258.3496 	DATA 	Keypress: t
+259.0496 	DATA 	Keypress: t
+259.7496 	DATA 	Keypress: t
+260.4496 	DATA 	Keypress: t
+261.1495 	DATA 	Keypress: t
+261.7077 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+261.7077 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\car\\car-2.jpg'
+261.8495 	DATA 	Keypress: t
+262.5494 	DATA 	Keypress: t
+263.2494 	DATA 	Keypress: t
+263.9494 	DATA 	Keypress: t
+264.1159 	EXP 	unnamed ImageStim: size = array([13.09489708, 13.09489708])
+264.1159 	EXP 	unnamed ImageStim: image = '..\\data\\fLoc\\stimuli\\limb\\limb-133.jpg'
+264.6494 	DATA 	Keypress: t
+265.3494 	DATA 	Keypress: t
+266.0494 	DATA 	Keypress: t
+266.7493 	DATA 	Keypress: t
+267.4494 	DATA 	Keypress: t
+268.1494 	DATA 	Keypress: t
+268.8494 	DATA 	Keypress: t
+269.5493 	DATA 	Keypress: t
+270.2493 	DATA 	Keypress: t
+270.9493 	DATA 	Keypress: t
+271.6493 	DATA 	Keypress: t
+272.3493 	DATA 	Keypress: t
+273.0493 	DATA 	Keypress: t
+273.7492 	DATA 	Keypress: t
+274.4492 	DATA 	Keypress: t
+274.4575 	EXP 	window1: recordFrameIntervals = False
+274.7788 	EXP 	window1: mouseVisible = True
