@@ -9,9 +9,6 @@ else
     n_cores=$1
 fi
 
-smooth=5
-paradigm_hp=100
-
 subs=$(ls -d ../sub-??)
 
 i=0
@@ -26,10 +23,10 @@ for sdir in ${subs}; do
 	    fi
 
 	    outputdir=../derivatives/fsl/${sub}/${task}/${ses}
-	    if [ ! -d ${outputdir} ]; then
-	        mkdir -p ${outputdir}
-	    fi
-	    outputdir=$(realpath ${outputdir})
+	    if [ -d ${outputdir}.feat ]; then
+		echo "Skipping ${outputdir}, because it's already done!"
+		continue
+            fi
 	
 	    # Find func file
 	    fmri_base=$(realpath ../${sub}/${ses}/func/${sub}_${ses}_task-${task}_acq-Mb4Mm27Tr700)
@@ -58,7 +55,7 @@ for sdir in ${subs}; do
 	    object_events=${fmri_base}_condition-object_events.txt
 	    response_events=${fmri_base}_condition-response_events.txt
 
-            export outputdir tr npts smooth feat_file highres_file totalVoxels paradigm_hp
+            export outputdir tr npts feat_file highres_file totalVoxels
             export face_events body_events place_events character_events object_events response_events
             fsf=../derivatives/fsl/fsf/${sub}_${ses}_task-${task}.fsf	    
 	    envsubst < ${template} > ${fsf}
