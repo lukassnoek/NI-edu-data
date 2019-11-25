@@ -8,6 +8,8 @@ logs = sorted(glob('exp/logs/*face*.tsv'))
 for log in logs:
     baselog = op.basename(log)
     sub, ses = baselog.split("_")[:2]
+    if sub == 'sub-01':
+        continue
 
     print(f'Processing {baselog} ...')
     df = pd.read_csv(log, sep='\t')
@@ -33,31 +35,23 @@ for log in logs:
     df.to_csv(save_dir, sep='\t')
 
    
-    for exp in ['neutral', 'smiling']:
-        tmp = df.query("expression == @exp").loc[:, ['onset', 'duration']]
-        tmp['weight'] = 1
-        tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(2)
-        tmp.to_csv(
-            save_dir.replace('_events.tsv', f'_condition-{exp}_events.txt'),
-            header=False, index=False, sep='\t'
-        )
+    for exp1 in ['neutral', 'smiling']:
+        for exp2 in ['male', 'female']:
+            tmp = df.query("expression == @exp1 & face_sex == @exp2").loc[:, ['onset', 'duration']]
+            tmp['weight'] = 1
+            tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(2)
+            tmp.to_csv(
+                save_dir.replace('_events.tsv', f'_condition-{exp1}{exp2}_events.txt'),
+                header=False, index=False, sep='\t'
+            )
 
-    for sx in ['male', 'female']:
-        tmp = df.query("face_sex == @sx").loc[:, ['onset', 'duration']]
-        tmp['weight'] = 1
-        tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(2)
-        tmp.to_csv(
-            save_dir.replace('_events.tsv', f'_condition-{sx}_events.txt'),
-            header=False, index=False, sep='\t'
-        )
-
-    for hand in ['left', 'right']:
-        tmp = df.query("response_hand == @hand").loc[:, ['onset', 'duration']]
-        tmp['weight'] = 1
-        tmp.to_csv(
-            save_dir.replace('_events.tsv', f'_condition-response{hand}_events.txt'),
-            header=False, index=False, sep='\t'
-        )
+    #for hand in ['left', 'right']:
+    #    tmp = df.query("response_hand == @hand").loc[:, ['onset', 'duration']]
+    #    tmp['weight'] = 1
+    #    tmp.to_csv(
+    #        save_dir.replace('_events.tsv', f'_condition-response{hand}_events.txt'),
+    #        header=False, index=False, sep='\t'
+    #    )
 
     tmp = df.query("face_sex == 'male' or face_sex == 'female'").loc[:, ['onset', 'duration', 'average_attractiveness']]
     tmp['weight'] = tmp['average_attractiveness']
@@ -67,8 +61,8 @@ for log in logs:
         header=False, index=False, sep='\t'
     )
     
-    tmp['weight'] = 1
-    tmp.to_csv(
-        save_dir.replace('_events.tsv', f'_condition-attractivenessunmodulated_events.txt'),
-        header=False, index=False, sep='\t'
-    )
+    #tmp['weight'] = 1
+    #tmp.to_csv(
+    #    save_dir.replace('_events.tsv', f'_condition-attractivenessunmodulated_events.txt'),
+    #    header=False, index=False, sep='\t'
+    #)

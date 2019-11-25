@@ -44,14 +44,13 @@ for sdir in ${subs}; do
             fi
         
             attr_mod_events=${fmri_base}_condition-attractivenessmodulated_events.txt
-	    attr_unmod_events=${fmri_base}_condition-attractivenessunmodulated_events.txt
-	    neutral_events=${fmri_base}_condition-neutral_events.txt
-	    smiling_events=${fmri_base}_condition-smiling_events.txt
-	    male_events=${fmri_base}_condition-male_events.txt
-	    female_events=${fmri_base}_condition-female_events.txt
+	    neutralfemale_events=${fmri_base}_condition-neutralfemale_events.txt
+	    neutralmale_events=${fmri_base}_condition-neutralmale_events.txt
+	    smilingfemale_events=${fmri_base}_condition-smilingfemale_events.txt
+	    smilingmale_events=${fmri_base}_condition-smilingmale_events.txt
 	    
-            export outputdir tr npts smooth feat_file highres_file totalVoxels
-            export attr_mod_events attr_unmod_events neutral_events smiling_events male_events female_events 
+            export outputdir tr npts feat_file highres_file totalVoxels
+            export attr_mod_events neutralfemale_events neutralmale_events smilingfemale_events smilingmale_events 
             fsf=../derivatives/fsl/fsf/${sub}_${ses}_task-face_run-${run}.fsf
 	    envsubst < ${template} > ${fsf}
 	    

@@ -153,13 +153,13 @@ set fmri(mixed_yn) 2
 set fmri(randomisePermutations) 5000
 
 # Number of EVs
-set fmri(evs_orig) 6
-set fmri(evs_real) 6
+set fmri(evs_orig) 5
+set fmri(evs_real) 5
 set fmri(evs_vox) 0
 
 # Number of contrasts
-set fmri(ncon_orig) 9
-set fmri(ncon_real) 9
+set fmri(ncon_orig) 5
+set fmri(ncon_real) 5
 
 # Number of F-tests
 set fmri(nftests_orig) 0
@@ -282,7 +282,7 @@ set fmri(confoundevs) 0
 set highres_files(1) "${highres_file}"
 
 # EV 1 title
-set fmri(evtitle1) "attr_unmod"
+set fmri(evtitle1) "attr_mod"
 
 # Basic waveform shape (EV 1)
 # 0 : Square
@@ -314,7 +314,7 @@ set fmri(tempfilt_yn1) 1
 set fmri(deriv_yn1) 0
 
 # Custom EV file (EV 1)
-set fmri(custom1) "${attr_unmod_events}"
+set fmri(custom1) "${attr_mod_events}"
 
 # Orthogonalise EV 1 wrt EV 0
 set fmri(ortho1.0) 0
@@ -334,11 +334,8 @@ set fmri(ortho1.4) 0
 # Orthogonalise EV 1 wrt EV 5
 set fmri(ortho1.5) 0
 
-# Orthogonalise EV 1 wrt EV 6
-set fmri(ortho1.6) 0
-
 # EV 2 title
-set fmri(evtitle2) "attr_mod"
+set fmri(evtitle2) "neutralfemale"
 
 # Basic waveform shape (EV 2)
 # 0 : Square
@@ -370,7 +367,7 @@ set fmri(tempfilt_yn2) 1
 set fmri(deriv_yn2) 0
 
 # Custom EV file (EV 2)
-set fmri(custom2) "${attr_mod_events}"
+set fmri(custom2) "${neutralfemale_events}"
 
 # Orthogonalise EV 2 wrt EV 0
 set fmri(ortho2.0) 0
@@ -390,11 +387,8 @@ set fmri(ortho2.4) 0
 # Orthogonalise EV 2 wrt EV 5
 set fmri(ortho2.5) 0
 
-# Orthogonalise EV 2 wrt EV 6
-set fmri(ortho2.6) 0
-
 # EV 3 title
-set fmri(evtitle3) "neutral"
+set fmri(evtitle3) "neutralmale"
 
 # Basic waveform shape (EV 3)
 # 0 : Square
@@ -426,7 +420,7 @@ set fmri(tempfilt_yn3) 1
 set fmri(deriv_yn3) 0
 
 # Custom EV file (EV 3)
-set fmri(custom3) "${neutral_events}"
+set fmri(custom3) "${neutralmale_events}"
 
 # Orthogonalise EV 3 wrt EV 0
 set fmri(ortho3.0) 0
@@ -446,11 +440,8 @@ set fmri(ortho3.4) 0
 # Orthogonalise EV 3 wrt EV 5
 set fmri(ortho3.5) 0
 
-# Orthogonalise EV 3 wrt EV 6
-set fmri(ortho3.6) 0
-
 # EV 4 title
-set fmri(evtitle4) "smiling"
+set fmri(evtitle4) "smilingfemale"
 
 # Basic waveform shape (EV 4)
 # 0 : Square
@@ -482,7 +473,7 @@ set fmri(tempfilt_yn4) 1
 set fmri(deriv_yn4) 0
 
 # Custom EV file (EV 4)
-set fmri(custom4) "${smiling_events}"
+set fmri(custom4) "${smilingfemale_events}"
 
 # Orthogonalise EV 4 wrt EV 0
 set fmri(ortho4.0) 0
@@ -502,11 +493,8 @@ set fmri(ortho4.4) 0
 # Orthogonalise EV 4 wrt EV 5
 set fmri(ortho4.5) 0
 
-# Orthogonalise EV 4 wrt EV 6
-set fmri(ortho4.6) 0
-
 # EV 5 title
-set fmri(evtitle5) "male"
+set fmri(evtitle5) "smilingmale"
 
 # Basic waveform shape (EV 5)
 # 0 : Square
@@ -538,7 +526,7 @@ set fmri(tempfilt_yn5) 1
 set fmri(deriv_yn5) 0
 
 # Custom EV file (EV 5)
-set fmri(custom5) "${male_events}"
+set fmri(custom5) "${smilingmale_events}"
 
 # Orthogonalise EV 5 wrt EV 0
 set fmri(ortho5.0) 0
@@ -558,65 +546,6 @@ set fmri(ortho5.4) 0
 # Orthogonalise EV 5 wrt EV 5
 set fmri(ortho5.5) 0
 
-# Orthogonalise EV 5 wrt EV 6
-set fmri(ortho5.6) 0
-
-# EV 6 title
-set fmri(evtitle6) "female"
-
-# Basic waveform shape (EV 6)
-# 0 : Square
-# 1 : Sinusoid
-# 2 : Custom (1 entry per volume)
-# 3 : Custom (3 column format)
-# 4 : Interaction
-# 10 : Empty (all zeros)
-set fmri(shape6) 3
-
-# Convolution (EV 6)
-# 0 : None
-# 1 : Gaussian
-# 2 : Gamma
-# 3 : Double-Gamma HRF
-# 4 : Gamma basis functions
-# 5 : Sine basis functions
-# 6 : FIR basis functions
-# 8 : Alternate Double-Gamma
-set fmri(convolve6) 3
-
-# Convolve phase (EV 6)
-set fmri(convolve_phase6) 0
-
-# Apply temporal filtering (EV 6)
-set fmri(tempfilt_yn6) 1
-
-# Add temporal derivative (EV 6)
-set fmri(deriv_yn6) 0
-
-# Custom EV file (EV 6)
-set fmri(custom6) "${female_events}"
-
-# Orthogonalise EV 6 wrt EV 0
-set fmri(ortho6.0) 0
-
-# Orthogonalise EV 6 wrt EV 1
-set fmri(ortho6.1) 0
-
-# Orthogonalise EV 6 wrt EV 2
-set fmri(ortho6.2) 0
-
-# Orthogonalise EV 6 wrt EV 3
-set fmri(ortho6.3) 0
-
-# Orthogonalise EV 6 wrt EV 4
-set fmri(ortho6.4) 0
-
-# Orthogonalise EV 6 wrt EV 5
-set fmri(ortho6.5) 0
-
-# Orthogonalise EV 6 wrt EV 6
-set fmri(ortho6.6) 0
-
 # Contrast & F-tests mode
 # real : control real EVs
 # orig : control original EVs
@@ -627,7 +556,7 @@ set fmri(con_mode) orig
 set fmri(conpic_real.1) 1
 
 # Title for contrast_real 1
-set fmri(conname_real.1) "face"
+set fmri(conname_real.1) "attr_pos"
 
 # Real contrast_real vector 1 element 1
 set fmri(con_real1.1) 1
@@ -644,20 +573,17 @@ set fmri(con_real1.4) 0
 # Real contrast_real vector 1 element 5
 set fmri(con_real1.5) 0
 
-# Real contrast_real vector 1 element 6
-set fmri(con_real1.6) 0
-
 # Display images for contrast_real 2
 set fmri(conpic_real.2) 1
 
 # Title for contrast_real 2
-set fmri(conname_real.2) "attr_pos"
+set fmri(conname_real.2) "attr_neg"
 
 # Real contrast_real vector 2 element 1
-set fmri(con_real2.1) 0
+set fmri(con_real2.1) -1.0
 
 # Real contrast_real vector 2 element 2
-set fmri(con_real2.2) 1.0
+set fmri(con_real2.2) 0.0
 
 # Real contrast_real vector 2 element 3
 set fmri(con_real2.3) 0
@@ -668,14 +594,11 @@ set fmri(con_real2.4) 0
 # Real contrast_real vector 2 element 5
 set fmri(con_real2.5) 0
 
-# Real contrast_real vector 2 element 6
-set fmri(con_real2.6) 0
-
 # Display images for contrast_real 3
 set fmri(conpic_real.3) 1
 
 # Title for contrast_real 3
-set fmri(conname_real.3) "attr_neg"
+set fmri(conname_real.3) "smiling>neutral"
 
 # Real contrast_real vector 3 element 1
 set fmri(con_real3.1) 0
@@ -684,166 +607,61 @@ set fmri(con_real3.1) 0
 set fmri(con_real3.2) -1.0
 
 # Real contrast_real vector 3 element 3
-set fmri(con_real3.3) 0.0
+set fmri(con_real3.3) -1.0
 
 # Real contrast_real vector 3 element 4
-set fmri(con_real3.4) 0
+set fmri(con_real3.4) 1.0
 
 # Real contrast_real vector 3 element 5
-set fmri(con_real3.5) 0
-
-# Real contrast_real vector 3 element 6
-set fmri(con_real3.6) 0
+set fmri(con_real3.5) 1.0
 
 # Display images for contrast_real 4
 set fmri(conpic_real.4) 1
 
 # Title for contrast_real 4
-set fmri(conname_real.4) "neutral"
+set fmri(conname_real.4) "male>female"
 
 # Real contrast_real vector 4 element 1
 set fmri(con_real4.1) 0
 
 # Real contrast_real vector 4 element 2
-set fmri(con_real4.2) 0
+set fmri(con_real4.2) -1.0
 
 # Real contrast_real vector 4 element 3
 set fmri(con_real4.3) 1.0
 
 # Real contrast_real vector 4 element 4
-set fmri(con_real4.4) 0.0
+set fmri(con_real4.4) -1.0
 
 # Real contrast_real vector 4 element 5
-set fmri(con_real4.5) 0
-
-# Real contrast_real vector 4 element 6
-set fmri(con_real4.6) 0
+set fmri(con_real4.5) 1.0
 
 # Display images for contrast_real 5
 set fmri(conpic_real.5) 1
 
 # Title for contrast_real 5
-set fmri(conname_real.5) "smiling"
+set fmri(conname_real.5) "face"
 
 # Real contrast_real vector 5 element 1
 set fmri(con_real5.1) 0
 
 # Real contrast_real vector 5 element 2
-set fmri(con_real5.2) 0
+set fmri(con_real5.2) 1.0
 
 # Real contrast_real vector 5 element 3
-set fmri(con_real5.3) 0
+set fmri(con_real5.3) 1.0
 
 # Real contrast_real vector 5 element 4
 set fmri(con_real5.4) 1.0
 
 # Real contrast_real vector 5 element 5
-set fmri(con_real5.5) 0.0
-
-# Real contrast_real vector 5 element 6
-set fmri(con_real5.6) 0
-
-# Display images for contrast_real 6
-set fmri(conpic_real.6) 1
-
-# Title for contrast_real 6
-set fmri(conname_real.6) "male"
-
-# Real contrast_real vector 6 element 1
-set fmri(con_real6.1) 0
-
-# Real contrast_real vector 6 element 2
-set fmri(con_real6.2) 0
-
-# Real contrast_real vector 6 element 3
-set fmri(con_real6.3) 0
-
-# Real contrast_real vector 6 element 4
-set fmri(con_real6.4) 0
-
-# Real contrast_real vector 6 element 5
-set fmri(con_real6.5) 1.0
-
-# Real contrast_real vector 6 element 6
-set fmri(con_real6.6) 0
-
-# Display images for contrast_real 7
-set fmri(conpic_real.7) 1
-
-# Title for contrast_real 7
-set fmri(conname_real.7) "female"
-
-# Real contrast_real vector 7 element 1
-set fmri(con_real7.1) 0
-
-# Real contrast_real vector 7 element 2
-set fmri(con_real7.2) 0
-
-# Real contrast_real vector 7 element 3
-set fmri(con_real7.3) 0
-
-# Real contrast_real vector 7 element 4
-set fmri(con_real7.4) 0
-
-# Real contrast_real vector 7 element 5
-set fmri(con_real7.5) 0
-
-# Real contrast_real vector 7 element 6
-set fmri(con_real7.6) 1.0
-
-# Display images for contrast_real 8
-set fmri(conpic_real.8) 1
-
-# Title for contrast_real 8
-set fmri(conname_real.8) "smiling-neutral"
-
-# Real contrast_real vector 8 element 1
-set fmri(con_real8.1) 0
-
-# Real contrast_real vector 8 element 2
-set fmri(con_real8.2) 0
-
-# Real contrast_real vector 8 element 3
-set fmri(con_real8.3) -1.0
-
-# Real contrast_real vector 8 element 4
-set fmri(con_real8.4) 1.0
-
-# Real contrast_real vector 8 element 5
-set fmri(con_real8.5) 0
-
-# Real contrast_real vector 8 element 6
-set fmri(con_real8.6) 0
-
-# Display images for contrast_real 9
-set fmri(conpic_real.9) 1
-
-# Title for contrast_real 9
-set fmri(conname_real.9) "male-female"
-
-# Real contrast_real vector 9 element 1
-set fmri(con_real9.1) 0
-
-# Real contrast_real vector 9 element 2
-set fmri(con_real9.2) 0
-
-# Real contrast_real vector 9 element 3
-set fmri(con_real9.3) 0.0
-
-# Real contrast_real vector 9 element 4
-set fmri(con_real9.4) 0.0
-
-# Real contrast_real vector 9 element 5
-set fmri(con_real9.5) 1.0
-
-# Real contrast_real vector 9 element 6
-set fmri(con_real9.6) -1.0
+set fmri(con_real5.5) 1.0
 
 # Display images for contrast_orig 1
 set fmri(conpic_orig.1) 1
 
 # Title for contrast_orig 1
-set fmri(conname_orig.1) "face"
+set fmri(conname_orig.1) "attr_pos"
 
 # Real contrast_orig vector 1 element 1
 set fmri(con_orig1.1) 1
@@ -860,20 +678,17 @@ set fmri(con_orig1.4) 0
 # Real contrast_orig vector 1 element 5
 set fmri(con_orig1.5) 0
 
-# Real contrast_orig vector 1 element 6
-set fmri(con_orig1.6) 0
-
 # Display images for contrast_orig 2
 set fmri(conpic_orig.2) 1
 
 # Title for contrast_orig 2
-set fmri(conname_orig.2) "attr_pos"
+set fmri(conname_orig.2) "attr_neg"
 
 # Real contrast_orig vector 2 element 1
-set fmri(con_orig2.1) 0
+set fmri(con_orig2.1) -1.0
 
 # Real contrast_orig vector 2 element 2
-set fmri(con_orig2.2) 1.0
+set fmri(con_orig2.2) 0.0
 
 # Real contrast_orig vector 2 element 3
 set fmri(con_orig2.3) 0
@@ -884,14 +699,11 @@ set fmri(con_orig2.4) 0
 # Real contrast_orig vector 2 element 5
 set fmri(con_orig2.5) 0
 
-# Real contrast_orig vector 2 element 6
-set fmri(con_orig2.6) 0
-
 # Display images for contrast_orig 3
 set fmri(conpic_orig.3) 1
 
 # Title for contrast_orig 3
-set fmri(conname_orig.3) "attr_neg"
+set fmri(conname_orig.3) "smiling>neutral"
 
 # Real contrast_orig vector 3 element 1
 set fmri(con_orig3.1) 0
@@ -900,160 +712,55 @@ set fmri(con_orig3.1) 0
 set fmri(con_orig3.2) -1.0
 
 # Real contrast_orig vector 3 element 3
-set fmri(con_orig3.3) 0.0
+set fmri(con_orig3.3) -1.0
 
 # Real contrast_orig vector 3 element 4
-set fmri(con_orig3.4) 0
+set fmri(con_orig3.4) 1.0
 
 # Real contrast_orig vector 3 element 5
-set fmri(con_orig3.5) 0
-
-# Real contrast_orig vector 3 element 6
-set fmri(con_orig3.6) 0
+set fmri(con_orig3.5) 1.0
 
 # Display images for contrast_orig 4
 set fmri(conpic_orig.4) 1
 
 # Title for contrast_orig 4
-set fmri(conname_orig.4) "neutral"
+set fmri(conname_orig.4) "male>female"
 
 # Real contrast_orig vector 4 element 1
 set fmri(con_orig4.1) 0
 
 # Real contrast_orig vector 4 element 2
-set fmri(con_orig4.2) 0
+set fmri(con_orig4.2) -1.0
 
 # Real contrast_orig vector 4 element 3
 set fmri(con_orig4.3) 1.0
 
 # Real contrast_orig vector 4 element 4
-set fmri(con_orig4.4) 0.0
+set fmri(con_orig4.4) -1.0
 
 # Real contrast_orig vector 4 element 5
-set fmri(con_orig4.5) 0
-
-# Real contrast_orig vector 4 element 6
-set fmri(con_orig4.6) 0
+set fmri(con_orig4.5) 1.0
 
 # Display images for contrast_orig 5
 set fmri(conpic_orig.5) 1
 
 # Title for contrast_orig 5
-set fmri(conname_orig.5) "smiling"
+set fmri(conname_orig.5) "face"
 
 # Real contrast_orig vector 5 element 1
 set fmri(con_orig5.1) 0
 
 # Real contrast_orig vector 5 element 2
-set fmri(con_orig5.2) 0
+set fmri(con_orig5.2) 1.0
 
 # Real contrast_orig vector 5 element 3
-set fmri(con_orig5.3) 0
+set fmri(con_orig5.3) 1.0
 
 # Real contrast_orig vector 5 element 4
 set fmri(con_orig5.4) 1.0
 
 # Real contrast_orig vector 5 element 5
-set fmri(con_orig5.5) 0.0
-
-# Real contrast_orig vector 5 element 6
-set fmri(con_orig5.6) 0
-
-# Display images for contrast_orig 6
-set fmri(conpic_orig.6) 1
-
-# Title for contrast_orig 6
-set fmri(conname_orig.6) "male"
-
-# Real contrast_orig vector 6 element 1
-set fmri(con_orig6.1) 0
-
-# Real contrast_orig vector 6 element 2
-set fmri(con_orig6.2) 0
-
-# Real contrast_orig vector 6 element 3
-set fmri(con_orig6.3) 0
-
-# Real contrast_orig vector 6 element 4
-set fmri(con_orig6.4) 0
-
-# Real contrast_orig vector 6 element 5
-set fmri(con_orig6.5) 1.0
-
-# Real contrast_orig vector 6 element 6
-set fmri(con_orig6.6) 0
-
-# Display images for contrast_orig 7
-set fmri(conpic_orig.7) 1
-
-# Title for contrast_orig 7
-set fmri(conname_orig.7) "female"
-
-# Real contrast_orig vector 7 element 1
-set fmri(con_orig7.1) 0
-
-# Real contrast_orig vector 7 element 2
-set fmri(con_orig7.2) 0
-
-# Real contrast_orig vector 7 element 3
-set fmri(con_orig7.3) 0
-
-# Real contrast_orig vector 7 element 4
-set fmri(con_orig7.4) 0
-
-# Real contrast_orig vector 7 element 5
-set fmri(con_orig7.5) 0
-
-# Real contrast_orig vector 7 element 6
-set fmri(con_orig7.6) 1.0
-
-# Display images for contrast_orig 8
-set fmri(conpic_orig.8) 1
-
-# Title for contrast_orig 8
-set fmri(conname_orig.8) "smiling-neutral"
-
-# Real contrast_orig vector 8 element 1
-set fmri(con_orig8.1) 0
-
-# Real contrast_orig vector 8 element 2
-set fmri(con_orig8.2) 0
-
-# Real contrast_orig vector 8 element 3
-set fmri(con_orig8.3) -1.0
-
-# Real contrast_orig vector 8 element 4
-set fmri(con_orig8.4) 1.0
-
-# Real contrast_orig vector 8 element 5
-set fmri(con_orig8.5) 0
-
-# Real contrast_orig vector 8 element 6
-set fmri(con_orig8.6) 0
-
-# Display images for contrast_orig 9
-set fmri(conpic_orig.9) 1
-
-# Title for contrast_orig 9
-set fmri(conname_orig.9) "male-female"
-
-# Real contrast_orig vector 9 element 1
-set fmri(con_orig9.1) 0
-
-# Real contrast_orig vector 9 element 2
-set fmri(con_orig9.2) 0
-
-# Real contrast_orig vector 9 element 3
-set fmri(con_orig9.3) 0.0
-
-# Real contrast_orig vector 9 element 4
-set fmri(con_orig9.4) 0.0
-
-# Real contrast_orig vector 9 element 5
-set fmri(con_orig9.5) 1.0
-
-# Real contrast_orig vector 9 element 6
-set fmri(con_orig9.6) -1.0
+set fmri(con_orig5.5) 1.0
 
 # Contrast masking - use >0 instead of thresholding?
 set fmri(conmask_zerothresh_yn) 0
@@ -1070,18 +777,6 @@ set fmri(conmask1_4) 0
 # Mask real contrast/F-test 1 with real contrast/F-test 5?
 set fmri(conmask1_5) 0
 
-# Mask real contrast/F-test 1 with real contrast/F-test 6?
-set fmri(conmask1_6) 0
-
-# Mask real contrast/F-test 1 with real contrast/F-test 7?
-set fmri(conmask1_7) 0
-
-# Mask real contrast/F-test 1 with real contrast/F-test 8?
-set fmri(conmask1_8) 0
-
-# Mask real contrast/F-test 1 with real contrast/F-test 9?
-set fmri(conmask1_9) 0
-
 # Mask real contrast/F-test 2 with real contrast/F-test 1?
 set fmri(conmask2_1) 0
 
@@ -1093,18 +788,6 @@ set fmri(conmask2_4) 0
 
 # Mask real contrast/F-test 2 with real contrast/F-test 5?
 set fmri(conmask2_5) 0
-
-# Mask real contrast/F-test 2 with real contrast/F-test 6?
-set fmri(conmask2_6) 0
-
-# Mask real contrast/F-test 2 with real contrast/F-test 7?
-set fmri(conmask2_7) 0
-
-# Mask real contrast/F-test 2 with real contrast/F-test 8?
-set fmri(conmask2_8) 0
-
-# Mask real contrast/F-test 2 with real contrast/F-test 9?
-set fmri(conmask2_9) 0
 
 # Mask real contrast/F-test 3 with real contrast/F-test 1?
 set fmri(conmask3_1) 0
@@ -1118,18 +801,6 @@ set fmri(conmask3_4) 0
 # Mask real contrast/F-test 3 with real contrast/F-test 5?
 set fmri(conmask3_5) 0
 
-# Mask real contrast/F-test 3 with real contrast/F-test 6?
-set fmri(conmask3_6) 0
-
-# Mask real contrast/F-test 3 with real contrast/F-test 7?
-set fmri(conmask3_7) 0
-
-# Mask real contrast/F-test 3 with real contrast/F-test 8?
-set fmri(conmask3_8) 0
-
-# Mask real contrast/F-test 3 with real contrast/F-test 9?
-set fmri(conmask3_9) 0
-
 # Mask real contrast/F-test 4 with real contrast/F-test 1?
 set fmri(conmask4_1) 0
 
@@ -1142,18 +813,6 @@ set fmri(conmask4_3) 0
 # Mask real contrast/F-test 4 with real contrast/F-test 5?
 set fmri(conmask4_5) 0
 
-# Mask real contrast/F-test 4 with real contrast/F-test 6?
-set fmri(conmask4_6) 0
-
-# Mask real contrast/F-test 4 with real contrast/F-test 7?
-set fmri(conmask4_7) 0
-
-# Mask real contrast/F-test 4 with real contrast/F-test 8?
-set fmri(conmask4_8) 0
-
-# Mask real contrast/F-test 4 with real contrast/F-test 9?
-set fmri(conmask4_9) 0
-
 # Mask real contrast/F-test 5 with real contrast/F-test 1?
 set fmri(conmask5_1) 0
 
@@ -1165,114 +824,6 @@ set fmri(conmask5_3) 0
 
 # Mask real contrast/F-test 5 with real contrast/F-test 4?
 set fmri(conmask5_4) 0
-
-# Mask real contrast/F-test 5 with real contrast/F-test 6?
-set fmri(conmask5_6) 0
-
-# Mask real contrast/F-test 5 with real contrast/F-test 7?
-set fmri(conmask5_7) 0
-
-# Mask real contrast/F-test 5 with real contrast/F-test 8?
-set fmri(conmask5_8) 0
-
-# Mask real contrast/F-test 5 with real contrast/F-test 9?
-set fmri(conmask5_9) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 1?
-set fmri(conmask6_1) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 2?
-set fmri(conmask6_2) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 3?
-set fmri(conmask6_3) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 4?
-set fmri(conmask6_4) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 5?
-set fmri(conmask6_5) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 7?
-set fmri(conmask6_7) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 8?
-set fmri(conmask6_8) 0
-
-# Mask real contrast/F-test 6 with real contrast/F-test 9?
-set fmri(conmask6_9) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 1?
-set fmri(conmask7_1) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 2?
-set fmri(conmask7_2) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 3?
-set fmri(conmask7_3) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 4?
-set fmri(conmask7_4) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 5?
-set fmri(conmask7_5) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 6?
-set fmri(conmask7_6) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 8?
-set fmri(conmask7_8) 0
-
-# Mask real contrast/F-test 7 with real contrast/F-test 9?
-set fmri(conmask7_9) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 1?
-set fmri(conmask8_1) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 2?
-set fmri(conmask8_2) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 3?
-set fmri(conmask8_3) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 4?
-set fmri(conmask8_4) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 5?
-set fmri(conmask8_5) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 6?
-set fmri(conmask8_6) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 7?
-set fmri(conmask8_7) 0
-
-# Mask real contrast/F-test 8 with real contrast/F-test 9?
-set fmri(conmask8_9) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 1?
-set fmri(conmask9_1) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 2?
-set fmri(conmask9_2) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 3?
-set fmri(conmask9_3) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 4?
-set fmri(conmask9_4) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 5?
-set fmri(conmask9_5) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 6?
-set fmri(conmask9_6) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 7?
-set fmri(conmask9_7) 0
-
-# Mask real contrast/F-test 9 with real contrast/F-test 8?
-set fmri(conmask9_8) 0
 
 # Do contrast masking at all?
 set fmri(conmask1_1) 0
