@@ -1,0 +1,69 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Setting number of cores to 1 ..."
+    n_cores=1
+else
+    n_cores=$1
+fi
+
+subs=$(ls -d ../sub-??)
+i=0
+for sdir in ${subs}; do
+    sub=$(basename ${sdir})
+    for ses in ses-1 ses-2; do
+	for run in 1 2 3 4 5 6; do
+	    template=template_face.fsf
+	    outputdir=../derivatives/fsl/${sub}/face/${ses}_run-${run}
+
+	    if [ -d ${outputdir}.feat ]; then
+		echo "Skipping, because ${outputdir} already exists!"
+		continue
+	    fi
+	
+	    # Find func file
+	    fmri_base=$(realpath ../${sub}/${ses}/func/${sub}_${ses}_task-face_acq-Mb4Mm27Tr700_run-${run})
+	    feat_file=${fmri_base}_bold.nii.gz
+
+	    # Set tr and npts
+	    tr=$(fslval ${feat_file} pixdim4)
+            npts=$(fslval ${feat_file} dim4)
+
+	    nx=$(fslval ${feat_file} dim1)
+	    ny=$(fslval ${feat_file} dim2)
+	    nz=$(fslval ${feat_file} dim3)
+	    totalVoxels=$(($nx * $ny * $nz * $npts))
+
+	    highres_file=$(realpath ../${sub}/ses-1/anat/${sub}_ses-1_acq-AxialNsig2Mm1_T1w_brain.nii.gz)
+	    if [ ! -f ${highres_file} ]; then
+	        echo "Going to bet the T1 for ${sub}, because that's not done yet!"
+	        orig_t1=${highres_file/_brain.nii.gz/.nii.gz}
+                bet ${orig_t1} ${highres_file} -R
+            fi
+        
+            attr_mod_events=${fmri_base}_condition-attractivenessmodulated_events.txt
+	    neutralfemale_events=${fmri_base}_condition-neutralfemale_events.txt
+	    neutralmale_events=${fmri_base}_condition-neutralmale_events.txt
+	    smilingfemale_events=${fmri_base}_condition-smilingfemale_events.txt
+	    smilingmale_events=${fmri_base}_condition-smilingmale_events.txt
+	    
+            export outputdir tr npts feat_file highres_file totalVoxels
+            export attr_mod_events neutralfemale_events neutralmale_events smilingfemale_events smilingmale_events 
+            fsf=../derivatives/fsl/fsf/${sub}_${ses}_task-face_run-${run}.fsf
+	    envsubst < ${template} > ${fsf}
+	    
+	    echo "Running FEAT for ${sub}, ${ses}, run-${run} ..."
+	    feat ${fsf} &
+	    
+	    i=$(($i + 1))
+	    if [ $((${i} % ${n_cores})) == 0 ]; then
+		wait  # wait before other processes are finished
+            fi
+
+	done
+    done
+done
+
+wait  # make sure to wait if not everything's finished yet
