@@ -7,8 +7,8 @@ from psychopy.gui import DlgFromDict
 from session import FLocSession, FaceSession
 
 inp = {
-    'sub_id': '01',  # '01', '02', etc  (zero-padded!)
-    'session': '2y',  # '1' or '2'
+    'sub_id': '17',  # '01', '02', etc  (zero-padded!)
+    'session': '1',  # '1' or '2'
     'task': '',  # 'floc' or 'face'
     'design': '',  # 'BLOCKED' or 'ER'
     'run': '',  # for floc, choose '1', '2', '3', '4', '5', or '6'
