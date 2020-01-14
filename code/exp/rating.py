@@ -7,9 +7,9 @@ from psychopy.gui import DlgFromDict
 from session import RatingSession
 
 inp = {
-    'sub_id': '',
-    'session': '',
-    'language': 'NL'  # 'NL' or 'EN'
+    'sub_id': '14',
+    'session': '1',
+    'language': 'EN'  # 'NL' or 'EN'
 }
 
 db = DlgFromDict(inp, order=['sub_id', 'session', 'language'], title='Settings')
