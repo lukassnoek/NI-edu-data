@@ -7,7 +7,7 @@ from psychopy.gui import DlgFromDict
 from session import FLocSession, FaceSession
 
 inp = {
-    'sub_id': '17',  # '01', '02', etc  (zero-padded!)
+    'sub_id': '14',  # '01', '02', etc  (zero-padded!)
     'session': '1',  # '1' or '2'
     'task': '',  # 'floc' or 'face'
     'design': '',  # 'BLOCKED' or 'ER'
