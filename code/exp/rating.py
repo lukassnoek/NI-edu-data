@@ -8,7 +8,7 @@ from session import RatingSession
 
 inp = {
     'sub_id': '14',
-    'session': '1',
+    'session': '2',
     'language': 'EN'  # 'NL' or 'EN'
 }
 
