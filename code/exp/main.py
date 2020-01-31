@@ -8,11 +8,11 @@ from session import FLocSession, FaceSession
 
 inp = {
     'sub_id': '14',  # '01', '02', etc  (zero-padded!)
-    'session': '1',  # '1' or '2'
+    'session': '2',  # '1' or '2'
     'task': '',  # 'floc' or 'face'
     'design': '',  # 'BLOCKED' or 'ER'
     'run': '',  # for floc, choose '1', '2', '3', '4', '5', or '6'
-    'language': 'NL'  # 'NL' or 'EN'
+    'language': 'EN'  # 'NL' or 'EN'
 }
 
 db = DlgFromDict(inp, order=['sub_id', 'session', 'task', 'design', 'run', 'language'], title='Settings')
