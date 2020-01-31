@@ -16,7 +16,7 @@ for sdir in ${subs}; do
     sub=$(basename ${sdir})
 
     for task in flocBLOCKED flocER; do
-        template=template_floc_runlevel.fsf
+        template=template_floc_runlevel2.fsf
         outputdir=../derivatives/fsl/${sub}/${task}/runlevel
 
         if [ -d ${outputdir}.gfeat ]; then
@@ -24,12 +24,14 @@ for sdir in ${subs}; do
 	    continue
         fi
 	
-        ses1cope4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-1.feat/stats/cope4.nii.gz
-	ses2cope4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-2.feat/stats/cope4.nii.gz
-	ses1cope5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-1.feat/stats/cope5.nii.gz
-	ses2cope5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-2.feat/stats/cope5.nii.gz
+        #ses1cope4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-1.feat/stats/cope4.nii.gz
+	#ses2cope4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-2.feat/stats/cope4.nii.gz
+	#ses1cope5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-1.feat/stats/cope5.nii.gz
+	#ses2cope5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-2.feat/stats/cope5.nii.gz
+        ses1=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-1.feat
+	ses2=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/${task}/ses-2.feat
 
-        export outputdir ses1cope4 ses2cope4 ses1cope5 ses2cope5
+        export outputdir ses1 ses2
         fsf=../derivatives/fsl/fsf/${sub}_task-${task}_runlevel.fsf
 	envsubst < ${template} > ${fsf}
 	    

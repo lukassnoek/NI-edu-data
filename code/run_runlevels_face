@@ -1,0 +1,53 @@
+#!/usr/bin/env bash
+
+set -e
+
+if [ -z "$1" ]; then
+    echo "Setting number of cores to 1 ..."
+    n_cores=1
+else
+    n_cores=$1
+fi
+
+subs=$(ls -d ../derivatives/fsl/sub-??)
+
+i=0
+for sdir in ${subs}; do
+    sub=$(basename ${sdir})
+
+    template=template_floc_runlevel.fsf
+    outputdir=../derivatives/fsl/${sub}/${task}/runlevel
+
+    if [ -d ${outputdir}.gfeat ]; then
+    	echo "Skipping ${outputdir}, because it's already done!"
+	continue
+    fi	
+
+    s1r1=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-1.feat
+    s1r2=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-2.feat
+    s1r3=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-3.feat
+    s1r4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-4.feat
+    s1r5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-5.feat
+    s1r6=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-6.feat
+    s2r1=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-1.feat
+    s2r2=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-2.feat
+    s2r3=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-3.feat
+    s2r4=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-4.feat
+    s2r5=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-5.feat
+    s2r6=/home/lsnoek1/spinoza_data/ni-edu/bids/derivatives/fsl/${sub}/face/ses-1_run-6.feat
+
+    export outputdir s1r1 s1r2 s1r3 s1r4 s1r5 s1r6 s2r1 s2r2 s2r3 s2r4 s2r5 s2r6
+    fsf=../derivatives/fsl/fsf/${sub}_task-face_runlevel.fsf
+    envsubst < ${template} > ${fsf}
+	    
+    echo "Running runlevel FEAT for ${sub} with task face ..."
+    feat ${fsf} &
+	    
+    i=$(($i + 1))
+    if [ $((${i} % ${n_cores})) == 0 ]; then
+	wait  # wait before other processes are finished
+    fi
+
+done
+
+wait  # make sure to wait if not everything's finished yet
