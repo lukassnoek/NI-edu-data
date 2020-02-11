@@ -7,12 +7,12 @@ from psychopy.gui import DlgFromDict
 from session import FLocSession, FaceSession
 
 inp = {
-    'sub_id': '14',  # '01', '02', etc  (zero-padded!)
-    'session': '2',  # '1' or '2'
-    'task': '',  # 'floc' or 'face'
+    'sub_id': '15',  # '01', '02', etc  (zero-padded!)
+    'session': '1',  # '1' or '2'
+    'task': '',  # 'floc' or 'face'nn
     'design': '',  # 'BLOCKED' or 'ER'
     'run': '',  # for floc, choose '1', '2', '3', '4', '5', or '6'
-    'language': 'EN'  # 'NL' or 'EN'
+    'language': 'NL'  # 'NL' or 'EN'
 }
 
 db = DlgFromDict(inp, order=['sub_id', 'session', 'task', 'design', 'run', 'language'], title='Settings')
