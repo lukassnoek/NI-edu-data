@@ -20,7 +20,6 @@ for log in logs:
     df.loc[df['trial_type'] == 'response', ['stim_name', 'task_probe']] = 'n/a'
     df.index = np.arange(df.shape[0])
 
-
     for idx, row in df.loc[df['task_probe'] == 1, :].iterrows():
         
         onset_probe = row['onset']
@@ -51,7 +50,7 @@ for log in logs:
     baselog = op.basename(log)
     sub, ses = baselog.split('_')[:2]
     save_dir = f'../{sub}/{ses}/func/{baselog}'
-    df.to_csv(save_dir, sep='\t')
+    df.to_csv(save_dir, sep='\t', index=False)
 
     conds = np.unique(df['trial_type'])
     for con in conds:
