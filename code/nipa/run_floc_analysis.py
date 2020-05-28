@@ -8,9 +8,9 @@ from joblib import Parallel, delayed
 from nistats.first_level_model import FirstLevelModel
 
 
-def fit_subject(sub):
+def fit_subject(sub, space):
 
-    funcs = sorted(glob(f'../derivatives/fmriprep/{sub}/ses-*/func/*task-flocBLOCKED*space-T1w*desc-preproc_bold.nii.gz'))
+    funcs = sorted(glob(f'../derivatives/fmriprep/{sub}/ses-*/func/*task-flocBLOCKED*space-{space}*desc-preproc_bold.nii.gz'))
     masks = [f.replace('preproc_bold', 'brain_mask') for f in funcs]
     mask = masking.intersect_masks(masks, threshold=0.9)
      
@@ -39,7 +39,7 @@ def fit_subject(sub):
     ]
     for name, df in con_defs:
         roi = flm.compute_contrast(df)
-        f_out = f'../derivatives/floc/{sub}/rois/{sub}_task-flocBLOCKED_desc-{name}_zscore.nii.gz'
+        f_out = f'../derivatives/floc/{sub}/rois/{sub}_task-flocBLOCKED_space-{space}_desc-{name}_zscore.nii.gz'
         if not op.isdir(op.dirname(f_out)):
             os.makedirs(op.dirname(f_out))
 
@@ -48,6 +48,6 @@ def fit_subject(sub):
 
 if __name__ == '__main__':
 
-    sub = 'sub-02'
-    fit_subject(sub)
+    subs = sorted([op.basename(d) for d in glob('../sub-*') if op.isdir(d)])
+    _ = [fit_subject(sub, space='T1w') for sub in subs]
 

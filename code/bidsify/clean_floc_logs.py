@@ -49,17 +49,20 @@ for log in logs:
 
     baselog = op.basename(log)
     sub, ses = baselog.split('_')[:2]
-    save_dir = f'../{sub}/{ses}/func/{baselog}'
-    df.to_csv(save_dir, sep='\t', index=False)
+    save_f = f'../{sub}/{ses}/func/{baselog}'
+    if not op.isdir(op.dirname(save_f)):
+        print(f"Skipping {save_f} because doesn't have bids dir")
+        continue
+    df.to_csv(save_f, sep='\t', index=False)
 
-    conds = np.unique(df['trial_type'])
-    for con in conds:
-        tmp = df.query("trial_type == @con")
-        tmp['weight'] = 1
-        tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(1)
-        tmp = tmp.loc[:, ['onset', 'duration', 'weight']]
-        tmp.to_csv(
-            save_dir.replace('_events.tsv', f'_condition-{con}_events.txt'), 
-            header=False, index=False, sep='\t'
-        )
+    #conds = np.unique(df['trial_type'])
+    #for con in conds:
+    #    tmp = df.query("trial_type == @con")
+    #    tmp['weight'] = 1
+    #    tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(1)
+    #    tmp = tmp.loc[:, ['onset', 'duration', 'weight']]
+    #    tmp.to_csv(
+    #        save_dir.replace('_events.tsv', f'_condition-{con}_events.txt'), 
+    #        header=False, index=False, sep='\t'
+    #    )
 

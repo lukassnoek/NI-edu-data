@@ -41,7 +41,10 @@ for log in logs:
     df.loc[df['trial_type'] == 'response', ['catch', 'expression', 'face_id', 'face_age', 'face_sex', 'face_eth', 'attractiveness']] = 'n/a' 
     df.loc[df['trial_type'] == 'rating', ['catch', 'expression', 'face_id', 'face_age', 'face_sex', 'face_eth', 'attractiveness']] = 'n/a'
 
+    idx = np.array([True if '_' in s else False for s in df['trial_type']])
     df['trial_type'] = [s.replace('_', '') for s in df['trial_type']]
+    df.loc[idx, 'trial_type'] = [f'{str(i).zfill(2)}STIM{n}' for i, n in enumerate(df.loc[idx, 'trial_type'])]
+
     df = df.rename(columns={'attractiveness': 'average_attractiveness'})
     stim_idx = ~df.loc[:, 'trial_type'].isin(['rating', 'response'])
     tmp = df.loc[stim_idx, 'average_attractiveness']
@@ -59,6 +62,7 @@ for log in logs:
     df = df.fillna('n/a')
     save_f = f'../{sub}/{ses}/func/{baselog}'
     if not op.isdir(op.dirname(save_f)):
+        print(f"Not saving data for {save_f}")
         continue  # skip if there's no bids datai
     df.to_csv(save_f, sep='\t', index=False)
     """ 
