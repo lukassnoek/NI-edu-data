@@ -1,0 +1,77 @@
+{
+  "trial_type": {
+    "LongName": "Unique identifier of trial",
+    "Description": "Identifier of trial with the format: {trial nr}{stim ID}{expression}"
+  },
+  "expression": {
+    "LongName": "Emotional expression",
+    "Description": "Emotional expression of face shown",
+    "Levels": {
+      "smiling": "smiling",
+      "neutral": "neutral"
+    }
+  },
+  "face_id": {
+    "LongName": "Face ID of stimulus",
+    "Description": "Face ID used in the London Face Database"
+  },
+  "face_age": {
+    "LongName": "Age of face stimulus",
+    "Description": "Age of face stimulus"
+  },
+  "face_sex": {
+    "LongName": "Sex of face stimulus",
+    "Description": "Sex of face stimulus",
+    "Levels": {
+      "male": "male",
+      "female": "female"
+    }
+  },
+  "face_eth": {
+    "LongName": "Ethnicity of face",
+    "Description": "Ethnicity of face as recorded in the London Face Database",
+    "Levels": {
+      "black": "black",
+      "white": "white",
+      "east_asian": "East Asian",
+      "west_asian": "West Asian"
+    }
+  },
+  "catch": {
+    "LongName": "Catch trial",
+    "Description": "Whether the trial was a catch trial (i.e., followed by a rating) or not",
+    "Levels": {
+      "0.0": "Was a catch trial",
+      "1.0": "Was not a catch trial"
+    }
+  },
+  "rating_score": {
+    "LongName": "Rating score",
+    "Description": "In case of a catch trial, the actual rating given by the participant, ranging from -4 (not at all) to 4 (very much)"
+  },
+  "response_hand": {
+    "LongName": "Response hand",
+    "Description": "Hand which the participant responded with",
+    "Levels": {
+      "left": "left hand",
+      "right": "right hand"
+    }
+  },
+  "average_attractiveness": {
+    "LongName": "Average attractiveness",
+    "Description": "Attractiveness score of face from average rating taken from the London Face Database metadata"
+  },
+  "subject_attractiveness": {
+    "LongName": "Subjective attractiveness",
+    "Description": "Attractiveness of face rated by the participant him/herself (average across 4 rating scores)"
+  },
+  "subject_dominance": {
+    "LongName": "Subjective dominance",
+    "Description": "Dominance of face rated by the participant him/herself (average across 4 rating scores)"
+  },
+ 
+  "subject_trustworthiness": {
+    "LongName": "Subjective trustworthiness",
+    "Description": "Trustworthiness of face rated by the participant him/herself (average across 4 rating scores)"
+  }
+}
