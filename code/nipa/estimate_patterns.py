@@ -26,7 +26,7 @@ def run_subject(sub, out_dir):
 
         flm = FirstLevelModel(
             t_r=t_r, slice_time_ref=0.5, hrf_model='glover', drift_model='cosine', high_pass=0.01,
-            mask_img=mask, smoothing_fwhm=5, noise_model='ar1', n_jobs=1, minimize_memory=False
+            mask_img=mask, smoothing_fwhm=None, noise_model='ols', n_jobs=1, minimize_memory=False
         )
 
         # Select confounds
