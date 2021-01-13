@@ -1,0 +1,15 @@
+This 3T fMRI dataset is used for the course "Neuroimaging: BOLD-MRI" at the University of Amsterdam. Importantly, it is only a subset of the available data (2 out of 3 tasks, 4 out of 15 subjects) to minimize the size for those following the course. The complete dataset is hosted under the name "NI-edu-data-complete".
+
+## Contents
+The experimental paradigms used for this dataset are meant to investigate how the brain processes information from faces and the representation of their subjective impressions (e.g., their perceived attractiveness, dominance, and trustworthiness). In addition to tasks that investigate face processing specifically, the dataset also includes several runs with a "functional localizer" task, which can be used to identify regions that preferentially respond to a particular object category (like faces, bodies, characters, etc.). In this course, we'll mostly use the localizer data, because the associated task (design) is relativelly simple and generates a robust signal. The stimuli and design for the localizer task were created by the Stanford Vision & Perception Neuroscience Lab (accessible [here](http://vpnl.stanford.edu/fLoc/)). 
+
+Notes:
+* The number of dynamics for the same tasks is sometimes slightly different (because we later acquired fewer volumes, because the task took shorter than we thought);
+* It also contains the Fmriprep/freesurfer derivatives, but again only for a small subset of the data/subjects;
+* Results from first-level, run-level, and group-level analyse using FSL are included (as these are inspected in the course)
+
+## Anonymity
+In accordance with regulations from the University of Amsterdam, several precautions for participant anonymity were taken.
+1. The informed consents signed by all participants contained a statement that their data could be shared with third parties;
+2. No mapping from personal data (name, address, etc.) and subject identifier (e.g., sub-01) exists;
+3. All structural data (T1-weighted scans) were defaced (using `pydeface`; https://github.com/poldracklab/pydeface);

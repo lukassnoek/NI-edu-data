@@ -9,7 +9,7 @@ else
     n_cores=$1
 fi
 
-subs=$(ls -d ../sub-??)
+subs=$(ls -d ../sub-03)
 
 i=0
 for sdir in ${subs}; do

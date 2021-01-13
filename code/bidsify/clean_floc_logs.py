@@ -4,7 +4,7 @@ import numpy as np
 from glob import glob
 
 
-logs = sorted(glob('exp/logs/*floc*.tsv'))
+logs = sorted(glob('exp/logs/*sub-03*floc*.tsv'))
 for log in logs:
     task = 'flocBLOCKED' if 'flocBLOCKED' in log else 'flocER'
     print(f'Processing {op.basename(log)} ...')
@@ -55,14 +55,14 @@ for log in logs:
         continue
     df.to_csv(save_f, sep='\t', index=False)
 
-    #conds = np.unique(df['trial_type'])
-    #for con in conds:
-    #    tmp = df.query("trial_type == @con")
-    #    tmp['weight'] = 1
-    #    tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(1)
-    #    tmp = tmp.loc[:, ['onset', 'duration', 'weight']]
-    #    tmp.to_csv(
-    #        save_dir.replace('_events.tsv', f'_condition-{con}_events.txt'), 
-    #        header=False, index=False, sep='\t'
-    #    )
+    conds = np.unique(df['trial_type'])
+    for con in conds:
+        tmp = df.query("trial_type == @con")
+        tmp['weight'] = 1
+        tmp.loc[:, 'duration'] = tmp.loc[:, 'duration'].round(1)
+        tmp = tmp.loc[:, ['onset', 'duration', 'weight']]
+        tmp.to_csv(
+            save_f.replace('_events.tsv', f'_condition-{con}_events.txt'), 
+            header=False, index=False, sep='\t'
+        )
 
