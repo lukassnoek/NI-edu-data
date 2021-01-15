@@ -17,8 +17,8 @@ for sub in $subs; do
     fmriprep-docker $bids_dir $out_dir \
         --image nipreps/fmriprep:20.2.1 \
         --participant-label $label \
-        --nthreads 2 \
-        --omp-nthreads 2 \
+        --nthreads 10 \
+        --omp-nthreads 10 \
 	--no-tty \
 	--work ../../fmriprep_work \
         --ignore slicetiming \
