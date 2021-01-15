@@ -20,7 +20,7 @@ def run_subject(sub, out_dir):
     funcs = sorted(glob(fprep_dir + '/ses-?/func/*task-face*space-MNI*desc-preproc_bold.nii.gz'))
     for func in funcs:
         t_r = nib.load(func).header['pixdim'][4]
-        conf = func.split('_space')[0] + '_desc-confounds_regressors.tsv'
+        conf = func.split('_space')[0] + '_desc-confounds_timeseries.tsv'
         mask = func.replace('preproc_bold', 'brain_mask')
         events = bids_dir + func.split(fprep_dir)[1].split('_space')[0] + '_events.tsv'
 
@@ -87,10 +87,10 @@ if __name__ == '__main__':
     out_dir = '../derivatives/pattern_estimation'
 
     # Gather subjects
-    sub_dirs = sorted(glob('../sub-??'))
+    sub_dirs = sorted(glob('../derivatives/fmriprep/sub-??.html'))
 
     # Run parallel
     Parallel(n_jobs=5)(delayed(run_subject)(
-        op.basename(sub_dir), out_dir) for sub_dir in sub_dirs
+        op.basename(sub_dir).split('.')[0], out_dir) for sub_dir in sub_dirs
     )
 
